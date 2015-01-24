@@ -15,3 +15,5 @@ file_again = raw_input('>')
 file_txt = open(file_again)
 print file_txt.read()
 
+file_txt.close()
+
