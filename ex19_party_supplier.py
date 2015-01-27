@@ -14,7 +14,7 @@ print """
 
 square_meters_place = int(raw_input('How many square meters is your place?, type just a number:  '))
 
-guests = raw_input('Do you allow people to come with theirpartner? ')
+guests = raw_input('Do you allow people to come with their partner? ')
 
 alco = int(raw_input('How many bottles of beers you will have for 1 person: '))
 
