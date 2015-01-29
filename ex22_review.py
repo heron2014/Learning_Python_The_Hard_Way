@@ -36,7 +36,10 @@ print """\n
 \t f.write(variable), variable = 'some string' or raw_input('line1: ')
 \t readline() - reads just one line of a text file
 \t truncate() - empties the file.Watch out on this one! Make sure your file can be emptied!
-\t from os.path import exists - 
+\t from os.path import exists - exists(filename) - checks if the file exist , if does return true
+\t seek(0) - moves back to the start of your file, First, the seek() function is dealing in bytes, not lines.
+\t The code seek(0) moves the file to the 0 byte (first byte) in the file. If you pass 1 u will be moved to second byte
+\t in the file.
 """
 
 age = 3
@@ -52,7 +55,6 @@ print 'My niece age is {} and also you can say she is {}'.format(age, age2)
 
 x = "There are %d types of people\n\n" % 10
 print x
-
 
 #another approach
 hilarius = 'lalalla'
@@ -78,3 +80,10 @@ height = raw_input("How tall are you? ")
 print height
 print "So you are %r" % height # if i pass %d - will throw error because raw_input returns string and %d - expect digit
 # so we are passing %r raw representation of input and it works
+
+
+def add(a, b):
+    return a + b
+
+c = add(3, 6)
+print c
