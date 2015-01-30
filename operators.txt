@@ -1,0 +1,17 @@
+= assignment operator. Assigns values from right side operands to left side operand
++= Adds right operand to the left operand and assign the result to the left operand = c +=a c=c+a
+**= exponent assignment operator.Performs exponential(power) calculation
+>= greater than or equal
+!= not equal
+< less than
+<= less than or equal
+== egual
+
+and logical operator. If both operands are true then the condition becomes true
+or logical or operator. If any of the 2 operands are non zero then the condition becomes true
+not reverse the logical state of its operand
+
+Objects operators:
+is
+is not 
+

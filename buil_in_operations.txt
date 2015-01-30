@@ -1,0 +1,18 @@
+Operation	Result	Notes
+x + y	sum of x and y	 
+x - y	difference of x and y	 
+x * y	product of x and y	 
+x / y	quotient of x and y	(1)
+x // y	(floored) quotient of x and y	(4)(5)
+x % y	remainder of x / y	(4)
+-x	x negated	 
++x	x unchanged	 
+abs(x)	absolute value or magnitude of x	(3)
+int(x)	x converted to integer	(2)
+long(x)	x converted to long integer	(2)
+float(x)	x converted to floating point	(6)
+complex(re,im)	a complex number with real part re, imaginary part im. im defaults to zero.	 
+c.conjugate()	conjugate of the complex number c. (Identity on real numbers)	 
+divmod(x, y)	the pair (x // y, x % y)	(3)(4)
+pow(x, y)	x to the power y	(3)(7)
+x ** y	x to the power y	(7)
